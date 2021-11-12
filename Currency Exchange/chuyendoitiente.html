@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td style="text-align: center;">
+                <strong>Amount</strong>
+            </td>
+            <td style="text-align: center;">
+                <strong>From Currency</strong>
+            </td>
+            <td style="text-align: center;">
+                <strong>To Currency</strong>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" class="searchBox" placeholder="0.00" id="0amount"> 
+            </td>
+            <td>
+                <select name="fromC" id="money1">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                    <option value="JPG">JPG</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </td>
+            <td>
+                <select name="ToC" id="money2">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                    <option value="JPG">JPG</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </td>
+            <td>
+                <button class="subBut" 
+                type="submit">
+                Convert
+                </button>
+            </td>                
+        </tr>
+    </table>
+    <script src="money.js"></script>
+</body>
+</html>
