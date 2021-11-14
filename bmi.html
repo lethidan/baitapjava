@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Max Index</title>
+</head>
+<body>
+    <script>
+        let weight=Number(prompt('Enter your weight(kg)'));
+        let height=Number(prompt('Enter your height(m)'));
+        bmi= weight/(Math.pow(height,2));
+        if (bmi < 18)
+            document.write('Underweight');
+        else if (bmi<25.0)
+            document.write('Normal');
+        else if (bmi<30.0)
+            document.write('Overweight')
+        else 
+            document.write('Obese');
+    </script>
+</body>
+</html>
