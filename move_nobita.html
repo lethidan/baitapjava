@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img id='nobita' src="image/nobita.jpg" style="height: 200px;width: 200px;">
+   <script>
+       function upArrowPressed() {
+           let img=document.getElementById('nobita');
+           img.style.top=parseInt(img.style.top)-5+'px'
+       }
+       function downArrowPressed() {
+           let img=document.getElementById('nobita');
+           img.style.top=parseInt(img.style.top)+5+'px';      
+       }
+       function leftArrowPressed() {
+           let img=document.getElementById('nobita');
+           img.style.left=parseInt(img.style.left)-5+'px';
+       }
+       function rightArrowPressed() {
+           let img=document.getElementById('nobita');
+           img.style.right=parseInt(img.style.right)+5+'px';
+       }
+       function moveSelection(evt) {
+           switch  
+           
+       }
+   </script>
+</body>
+</html>
